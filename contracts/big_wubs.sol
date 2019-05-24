@@ -7,7 +7,7 @@ contract wubs {
     
     constructor () public {
         owner = msg.sender;
-        theBalance[owner] = 10000000;
+        theBalance[owner] = 1000;
         totalTokens = theBalance[owner];
     }
     
